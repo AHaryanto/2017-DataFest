@@ -1,0 +1,41 @@
+INSERT INTO BOOK (book_ID, author_ID, publisher_ID, customer_rating, price, condition, title, category, year)
+VALUES (‘142’, ‘Doug Stuns’, ‘Syb1’, ‘5’, ‘20.00’, ‘new’, ‘Database 101’, ‘Computer’, ‘2017’);
+
+INSERT INTO PUBLISHER (publisher_ID, book_ID, publisher_name)
+VALUES (‘Syb1’, ‘142’, ‘Sybex’);
+
+INSERT INTO PUBLISHER (publisher_ID, book_ID, publisher_name)
+VALUES (‘Syb1’, ‘142’, ‘Sybex’);
+
+INSERT INTO CUSTOMER (customer_ID, fname, lname, street1, street2, city, country, postal)
+VALUES (‘21’, ‘John’, ‘Doe’, ‘143 Fake St’, ‘1’, ‘Columbus’, ‘US’, ‘43210’);
+
+DELETE FROM BOOK
+WHERE *;
+
+DELETE FROM BOOK
+WHERE author_ID = ‘1’;
+
+DELETE FROM BOOK
+WHERE author_ID = ‘1’ AND Year = 1999;
+
+DELETE FROM PUBLISHER
+WHERE *;
+
+DELETE FROM PUBLISHER
+WHERE publisher_ID = ‘Syb1’;
+
+DELETE FROM AUTHOR
+WHERE *;
+
+DELETE FROM AUTHOR
+WHERE author_ID = ‘Jordan Hart’;
+
+DELETE FROM CUSTOMER
+WHERE *;
+
+DELETE FROM CUSTOMER
+WHERE customer_ID = ‘1’;
+
+DELETE FROM CUSTOMER
+WHERE city = ‘Cleveland’ AND lname = ‘Smith’;
