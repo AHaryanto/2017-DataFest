@@ -1,41 +1,41 @@
 INSERT INTO BOOK (book_ID, author_ID, publisher_ID, customer_rating, price, condition, title, category, year)
-VALUES (‘142’, ‘Doug Stuns’, ‘Syb1’, ‘5’, ‘20.00’, ‘new’, ‘Database 101’, ‘Computer’, ‘2017’);
+VALUES (â€˜142â€™, â€˜Doug Stunsâ€™, â€˜Syb1â€™, â€˜5â€™, â€˜20.00â€™, â€˜newâ€™, â€˜Database 101â€™, â€˜Computerâ€™, â€˜2017â€™);
 
 INSERT INTO PUBLISHER (publisher_ID, book_ID, publisher_name)
-VALUES (‘Syb1’, ‘142’, ‘Sybex’);
+VALUES (â€˜Syb1â€™, â€˜142â€™, â€˜Sybexâ€™);
 
 INSERT INTO PUBLISHER (publisher_ID, book_ID, publisher_name)
-VALUES (‘Syb1’, ‘142’, ‘Sybex’);
+VALUES (â€˜Syb1â€™, â€˜142â€™, â€˜Sybexâ€™);
 
 INSERT INTO CUSTOMER (customer_ID, fname, lname, street1, street2, city, country, postal)
-VALUES (‘21’, ‘John’, ‘Doe’, ‘143 Fake St’, ‘1’, ‘Columbus’, ‘US’, ‘43210’);
+VALUES (â€˜21â€™, â€˜Johnâ€™, â€˜Doeâ€™, â€˜143 Fake Stâ€™, â€˜1â€™, â€˜Columbusâ€™, â€˜USâ€™, â€˜43210â€™);
 
 DELETE FROM BOOK
 WHERE *;
 
 DELETE FROM BOOK
-WHERE author_ID = ‘1’;
+WHERE author_ID = â€˜1â€™;
 
 DELETE FROM BOOK
-WHERE author_ID = ‘1’ AND Year = 1999;
+WHERE author_ID = â€˜1â€™ AND Year = 1999;
 
 DELETE FROM PUBLISHER
 WHERE *;
 
 DELETE FROM PUBLISHER
-WHERE publisher_ID = ‘Syb1’;
+WHERE publisher_ID = â€˜Syb1â€™;
 
 DELETE FROM AUTHOR
 WHERE *;
 
 DELETE FROM AUTHOR
-WHERE author_ID = ‘Jordan Hart’;
+WHERE author_ID = â€˜Jordan Hartâ€™;
 
 DELETE FROM CUSTOMER
 WHERE *;
 
 DELETE FROM CUSTOMER
-WHERE customer_ID = ‘1’;
+WHERE customer_ID = â€˜1â€™;
 
 DELETE FROM CUSTOMER
-WHERE city = ‘Cleveland’ AND lname = ‘Smith’;
+WHERE city = â€˜Clevelandâ€™ AND lname = â€˜Smithâ€™;
