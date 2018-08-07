@@ -16,7 +16,6 @@ WHERE B.book_ID = A.book_ID
 GROUP BY A.customer_ID;
 
 2) Total Books
-	
 This view allows us to see how many books are in each individual store. This is useful since it could tall managers when they need to order more books for that individual store.
 
 Relational Algebra:
