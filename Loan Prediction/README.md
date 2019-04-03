@@ -1,7 +1,7 @@
 ### Predicting Loan Interest Rates
 
 Data:
-Each row represents a loan and its features such as interest rate assigned to the loan, date loan was issued, and loan grade. There is a total 32 features in the data. 
+Each row represents a loan and its features such as interest rate assigned to the loan, date loan was issued, and loan grade. There is a total 32 features in the data, see Metadata.pdf.
 
 Models:
 I built two machine learning boosting models -  XGBOOST and gradient boosting - to predict the interest rate a bank will assign various loans. 
