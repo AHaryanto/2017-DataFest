@@ -6,4 +6,4 @@ Key Methods:
 1. SVD to figure out consumer preferences
 2. KNN to group products based on nutrition and size
 
-Credit to Alison Bertin, Megan Godfrey, Pamela Pan, and Dan Tallarico.
+Credit to Alison Bertin, Megan Godfrey, Chen Pan, and Dan Tallarico.
