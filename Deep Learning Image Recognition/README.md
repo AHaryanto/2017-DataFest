@@ -9,3 +9,5 @@ Approach:
 4. Feed output of 1,2,3 and image properties as features to XGBoost
 
 Credit to Casey_Works, Dan Tallarico, and Saurabh Srivastava.
+
+![Output] (https://github.com/AHaryanto/Side-Projects/blob/master/Deep%20Learning%20Image%20Recognition/Output.png?raw=true)
