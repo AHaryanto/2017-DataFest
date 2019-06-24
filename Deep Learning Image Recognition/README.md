@@ -2,6 +2,8 @@
 
 A deep learning project trying to determine if two individuals are related given their pictures.
 
+![Output](Output.png)
+
 Approach:
 1. Calculate euclidean distance using FaceNet kernel
 2. Extract features such as age and gender using OpenCV pre-trained model
@@ -10,4 +12,4 @@ Approach:
 
 Credit to Casey_Works, Dan Tallarico, and Saurabh Srivastava.
 
-![Output](Output.png)
+
