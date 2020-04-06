@@ -20,9 +20,10 @@ B. Feature engineering
    3. Run Birch hierarchical clustering algorithm on the vectorized article and assign the cluster label
 
  C. Modeling
-    1. Run the following four machine learning algorithms on the processed article: random forest, extremely randomized tree, gradient boosting, and XGBoost
-    2. Feed the output from the four models into a stacked random forest model for final prediction. The pipeline is illustrated in the figure below.
-    ![stacked_model](stacked_model.png)
+ 1. Run the following four machine learning algorithms on the processed article: random forest, extremely randomized tree, gradient boosting, and XGBoost
+ 2. Feed the output from the four models into a stacked random forest model for final prediction. The pipeline is illustrated in the figure below.
+    
+![stacked_model](stacked_model.png)
 
 **Validation:**
 
