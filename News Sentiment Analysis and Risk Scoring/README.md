@@ -7,6 +7,7 @@ Data:
 2. Stock market data
 
 Methodology:
+
 A. Response variable
    1. Calculate sentiment score using the Natural Language Toolkit (NLTK) Python library
    2. Perform Named Entity Recognition (NER) to label companies using spaCy Python Library
@@ -21,6 +22,7 @@ B. Feature engineering
  C. Modeling
     1. Run the following four machine learning algorithms on the processed article: random forest, extremely randomized tree, gradient boosting, and XGBoost
     2. Feed the output from the four models into a stacked random forest model for final prediction. The pipeline is illustrated in the figure below.
+    
     ![stacked_model](stacked_model.png)
 
 Validation:
