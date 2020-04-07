@@ -1,5 +1,7 @@
-Project 1:
-This program delivers an inventory summary report. This program will read data about various products in a store's inventory from a file into a number of ArrayLists. This program will display a summary report of the information from the inventory file. 
+**Project 1:**
+This program delivers an inventory summary report. This program will read data about various products in a store's inventory from a file into a number of ArrayLists. This program will display a summary report of the information from the inventory file.
+
+![P1](img/Java Project 1.png)
 
 Project 2: 
 This program delivers an inventory summary report. This program will read data about various products in a store's inventory from a file into a single Product object and maintain an ArrayList of Product objects. This program will display the report in the format of a table. This program will also calculate the highest average user rating in stock, the lowest average user rating in stock, the largest total dollar amount in inventory, and the smallest total dollar amount in inventory.
